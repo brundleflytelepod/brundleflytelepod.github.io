@@ -34,8 +34,8 @@
 	body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro';
-		font-weight: 300;
-		color: #7f82dc;
+		font-weight: 500;
+		color: #aeaeae;
 	}
 
 	h1,h2,h3,h4,h5,h6
@@ -75,13 +75,13 @@
 
 		a:hover
 		{
-			color: #ed786a;
+			color: #8284d4;
 			border-bottom-color: rgba(255,255,255,0);
 		}
 
 		a:hover strong
 		{
-			color: #ed786a;
+			color: #7d978a;
 		}
 
 	strong, b
@@ -162,7 +162,7 @@
 		.image
 		{
 			display: inline-block;
-			border: solid 6px #ebebeb !important;
+			border: solid 6px #e1e1f5 !important;
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-o-transition: opacity 0.25s ease-in-out;
@@ -178,19 +178,23 @@
 			.image img
 			{
 				display: block;
-				width: 100%;
+				width: 290px;
+                height: 200px;
 			}
 
 			.image.fit
 			{
 				display: block;
 				width: 100%;
+                height: auto;
+                object-fit: cover;
 			}
 
 			.image.featured
 			{
 				display: block;
 				width: 100%;
+                height: auto;
 				margin: 0 0 3.5em 0;
 			}
 
@@ -482,7 +486,7 @@
 			-webkit-appearance: none;
 			position: relative;
 			display: inline-block;
-			background: #ed786a;
+			background: #5054c3;
 			color: #fff !important;
 			text-transform: uppercase;
 			border-radius: 4px;
@@ -512,7 +516,7 @@
 			input[type="reset"]:hover,
 			.button:hover
 			{
-				background: #fd887a;
+				background: #8284d4;
 			}
 
 			input[type="button"]:active,
@@ -520,7 +524,7 @@
 			input[type="reset"]:active,
 			.button:active
 			{
-				background: #ed786a;
+				background: #5054c3;
 			}
 
 			input[type="button"].alt,
@@ -536,7 +540,7 @@
 				input[type="reset"].alt:hover,
 				.button.alt:hover
 				{
-					background: #979797;
+					background: #8284d4;
 				}
 
 				input[type="button"].alt:active,
@@ -544,7 +548,7 @@
 				input[type="reset"].alt:active,
 				.button.alt:active
 				{
-					background: #878787;
+					background: #8284d4;
 				}
 
 	/* Box */
@@ -700,7 +704,7 @@
 		{
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #5056c3;
 			text-shadow: 0.05em 0.075em 0 rgba(0,0,0,0.1);
 		}
 
@@ -775,19 +779,20 @@
 				#nav > ul > li.active > a,
 				#nav > ul > li:hover > a
 				{
+				    color: #5056c3;
 				}
 
 					#nav > ul > li.active > a:before,
 					#nav > ul > li:hover > a:before
 					{
-						background: #ED786A;
+						background: #5056c3;
 						color: #fff;
 					}
 
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span
 					{
-						color: #ED786A;
+						color: #5056c3;
 					}
 
 /*********************************************************************************/
