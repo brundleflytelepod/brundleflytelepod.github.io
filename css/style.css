@@ -178,7 +178,7 @@
 			.image img
 			{
 				display: block;
-				width: 290px;
+				width: 300px;
                 height: 200px;
 			}
 
@@ -187,7 +187,6 @@
 				display: block;
 				width: 100%;
                 height: auto;
-                object-fit: cover;
 			}
 
 			.image.featured
