@@ -285,14 +285,14 @@
 
 			ul.icons
 			{
-			}
+			}	
 
 				ul.icons > li
 				{
 					position: relative;
-					padding: 1em 0 0 2em;
+					padding: 2em 0 0 3em;
 				}
-
+				
 				ul.icons > li:before
 				{
 					position: absolute;
@@ -303,7 +303,7 @@
 					color: #e4e4e4;
 					width: 1.65em;
 					height: 1.65em;
-					border-radius: 7.65em;
+					border-radius: 1.65em;
 					line-height: 1.65em;
 					text-align: center;
 					box-shadow: 0.125em 0.175em 0 0 rgba(0,0,0,0.125);
@@ -313,7 +313,7 @@
 				{
 					padding-top: 0;
 				}
-
+				
 					ul.icons > li:first-child:before
 					{
 						top: 0;
@@ -323,12 +323,12 @@
 		{
 		}
 
-			ol.default
+			ol.default 
 			{
 				list-style: decimal;
 				margin-left: 1em;
 			}
-
+			
 				ol.default  li
 				{
 					padding-left: 0.5em;
@@ -876,3 +876,5 @@
 		border-top: solid 2px #e5e5e5;
 		text-align: center;
 	}
+
+
